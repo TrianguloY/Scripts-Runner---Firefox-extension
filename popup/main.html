@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="main.css"/>
+	</head>
+	
+	<template id="tmpl">
+		<div id="script">
+			<div id="bar">
+				<button id="run">Run</button>
+				<input id="title" type="text">
+				<button id="hide">(·)</button>
+				<button id="delete">Delete</button>
+			</div>
+			<div id="hideable">
+				<input id="iframe" type="checkbox" title="Run on iframe">
+				Run on iframe
+				<textarea id="code"></textarea>
+			</div>
+		</div>
+	</template>
+
+	<body>
+		<div id="outer-wrapper">
+			<header>
+				<button id="new">New</button>
+			</header>
+			<li id="container"></li>
+			<footer>
+				<button id="export">Export</button>
+				<button id="import">Import</button>
+			</footer>
+		</div>
+
+		<script src="main.js"></script>
+	</body>
+	
+</html>

@@ -1,0 +1,33 @@
+{
+
+  "manifest_version": 2,
+  "name": "Scripts runner",
+  "version": "1.0",
+
+  "description": "A Firefox extension to create/run/edit small scripts. Created to improve the Bookmarklet feature, specifically to allow quick editing and testing. It also supports running the scripts inside iframes (bookmarklets don't).",
+  "icons": {
+    "48": "icons/icon-48.png"
+  },
+
+  "permissions": [
+	"<all_urls>",
+	"storage",
+	"clipboardRead",
+	"webNavigation"
+  ],
+
+  "browser_action": {
+    "default_icon": {
+     "32" : "icons/icon-32.png"
+    },
+    "default_title": "Scripts",
+    "default_popup": "popup/main.html"
+  },
+
+  "applications": {
+    "gecko": {
+      "id": "correo--correo@hotmail.com"
+    }
+  }
+
+}
